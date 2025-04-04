@@ -19,7 +19,7 @@ namespace L02P02_2023_EQ_651_2023_RR_655.Controllers
 
             if (autor == null) return NotFound();
 
-            var viewModel = new AutoresLibrosViewModel
+            var viewModel = new AutorLibrosViewModel
             {
                 Autor = autor,
                 Libros = libros
